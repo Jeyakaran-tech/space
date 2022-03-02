@@ -8,11 +8,7 @@ const Tab = createBottomTabNavigator();
 
 const HomeTabNavigator = ()=> {
     return ( 
-        <Tab.Navigator
-        screenOptions={{
-            activeTintColor: '#f15454',
-          }}
-        >
+        <Tab.Navigator>
             <Tab.Screen 
             name={'Search'}
             component={HomePage}
